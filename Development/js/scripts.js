@@ -1,11 +1,12 @@
 let instructor = {
-  name: "Menawer",
-  courses: ["JavaScript", "React", "PHP"],
+  name: "layan",
+  courses: ["JavaScript", "html", "css"],
   githubAccount: {
-    username: "careless10",
-    numberOfRepos: 200,
+    username: "layan-alruwayeh",
+    numberOfRepos: 17,
   },
-  sayHello: function () {
-    console.log("Hi, I'm Menawer");
+  sayHello: function (p1,p2) {
+    return p1 * p2;   // The function returns the product of p1 and p2
+      console.log("Hi, I'm layan");
   },
 };
